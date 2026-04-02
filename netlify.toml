@@ -1,6 +1,9 @@
 [build]
   publish = "public"
   functions = "netlify/functions"
+  
+[functions]
+  included_files = ["files/**"]
 
 [[redirects]]
   from = "/api/send-pdf"
