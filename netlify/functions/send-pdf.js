@@ -72,7 +72,7 @@ exports.handler = async function (event) {
       body: JSON.stringify({
         sender: {
           email: process.env.SENDER_EMAIL,
-          name: process.env.SENDER_NAME || 'Website PDF Sender'
+          name: process.env.SENDER_NAME || ' '
         },
         to: [
           {
