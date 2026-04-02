@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send PDF by Email</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Send PDF by Email</h1>
+      <p class="sub">Netlify-ready vanilla HTML, CSS, and JavaScript</p>
+
+      <form id="sendForm" class="form">
+        <label>
+          First name
+          <input type="text" id="firstname" name="firstname" placeholder="Celest" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </label>
+
+        <button id="sendBtn" type="submit">Send PDF now</button>
+      </form>
+
+      <p id="message" class="message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/send-pdf"
+  to = "/.netlify/functions/send-pdf"
+  status = 200
